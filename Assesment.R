@@ -26,6 +26,7 @@ cacheSolve<-function(x,...){
   x$setInverse(inv)
   inv
 }
+# Finally
 pmatrix=makeCacheMatrix(matrix(c(1,2,3,5),nrow=2,ncol=2))
 pmatrix$get()
 pmatrix$getInverse()
